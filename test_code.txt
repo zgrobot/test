@@ -1,0 +1,6 @@
+//delete file
+tmp = remove("/home/robot/ros_ws/starline/test1.cfg");
+ROS_INFO("remove file:%d",tmp);
+perror("remove");
+//delete file
+system("sudo rm /home/robot/ros_ws/starline/test1.cfg");
